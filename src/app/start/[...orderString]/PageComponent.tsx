@@ -26,7 +26,7 @@ export default function PageComponent({ order, }: PageComponentProps) {
 
     return (
         <div id="item-card" className="flex flex-col flex-wrap my-[10vh] mx-auto p-[2rem] bg-background-2 rounded-[.5rem] shadow-lg shadow-background-2 max-w-[700px] w-full">
-            <h2 className="override-typography wrap-normal text-[3rem] font-bold">{currentItem.size?.toLowerCase() !== "size - n,a" && <em>{currentItem.size} </em>}{currentItem.name}</h2>
+            <h2 className="override-typography wrap-normal text-[3rem] font-bold">{currentItem.size?.toLowerCase() !== "size - n/a" && <em>{currentItem.size} </em>}{currentItem.name}</h2>
 
             <div className="flex flex-row gap-[1rem]">
                 <span className="text-[1.5rem]"><strong>Amount:</strong> x{currentItem.quantity}</span>
