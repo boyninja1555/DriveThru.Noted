@@ -1,0 +1,31 @@
+{
+  "theme_color": "#00aaff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-US",
+  "name": "DriveThru.Noted",
+  "short_name": "DriveThru.Noted",
+  "start_url": "https://dt-noted.flappygrant.com/",
+  "scope": "https://dt-noted.flappygrant.com/",
+  "description": "A complex food-note-taking app for large fast-food restaurant orders.",
+  "id": "https://dt-noted.flappygrant.com/"
+}

@@ -1,0 +1,117 @@
+/* Sets the styling for typography */
+* {
+	text-wrap: break-word;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+ul:not(.override-typography):not(.🔒️),
+ol:not(.override-typography):not(.🔒️) {
+	padding-left: 2rem;
+	list-style: disc;
+}
+
+ul:not(.override-typography):not(.🔒️) li,
+ol:not(.override-typography):not(.🔒️) li {
+	margin: .25rem 0;
+}
+
+h1:not(.override-typography):not(.🔒️),
+h2:not(.override-typography):not(.🔒️),
+h3:not(.override-typography):not(.🔒️),
+h4:not(.override-typography):not(.🔒️),
+h5:not(.override-typography):not(.🔒️),
+h6:not(.override-typography):not(.🔒️) {
+	margin-top: .5rem;
+	margin-bottom: .25rem;
+	color: var(--foreground-1);
+}
+
+h1:not(.override-typography):not(.🔒️) {
+	font-size: xx-large;
+	font-weight: 700;
+}
+
+h2:not(.override-typography):not(.🔒️) {
+	font-size: x-large;
+	font-weight: 600;
+}
+
+h3:not(.override-typography):not(.🔒️) {
+	font-size: larger;
+	font-weight: 500;
+}
+
+h4:not(.override-typography):not(.🔒️) {
+	font-size: large;
+	font-weight: 400;
+}
+
+h5:not(.override-typography):not(.🔒️) {
+	font-size: medium;
+	font-weight: 300;
+}
+
+h6:not(.override-typography):not(.🔒️) {
+	font-size: small;
+	font-weight: 200;
+}
+
+p:not(.override-typography):not(.🔒️) {
+	color: var(--foreground-2);
+}
+
+a:not(.override-typography):not(.🔒️),
+button.anchor {
+	font-style: italic;
+}
+
+a:not(.override-typography):not(.🔒️):hover,
+button.anchor:hover {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+form:not(.override-typography):not(.🔒️) {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+form:not(.override-typography):not(.🔒️) .form-part:not(.override-typography):not(.🔒️) {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	border: .2rem solid var(--foreground-2);
+	border-radius: .5rem;
+	outline: none;
+}
+
+form:not(.override-typography):not(.🔒️) .form-part-lbl:not(.override-typography):not(.🔒️) {
+	margin-bottom: .2rem;
+	font-size: 1.5rem;
+}
+
+form:not(.override-typography):not(.🔒️) .form-part-desc:not(.override-typography):not(.🔒️) {
+	margin-bottom: .8rem;
+	color: var(--foreground-2);
+}
+
+form:not(.override-typography):not(.🔒️) .form-part:not(.override-typography):not(.🔒️) input[type="text"]:not(.override-typography):not(.🔒️),
+form:not(.override-typography):not(.🔒️) .form-part:not(.override-typography):not(.🔒️) input[type="password"]:not(.override-typography):not(.🔒️),
+form:not(.override-typography):not(.🔒️) .form-part:not(.override-typography):not(.🔒️) textarea:not(.override-typography):not(.🔒️) {
+	padding: .2rem .5rem;
+	background-color: var(--theme);
+	border: .2rem solid var(--foreground-2);
+	border-radius: .5rem;
+	outline: none;
+}
+
+form:not(.override-typography):not(.🔒️) input[type="submit"]:not(.override-typography):not(.🔒️),
+form:not(.override-typography):not(.🔒️) button:not(.override-typography):not(.🔒️) {
+	padding: .2rem .5rem;
+	background-color: var(--theme);
+	border: .2rem solid var(--foreground-2);
+	border-radius: .5rem;
+	cursor: pointer;
+}
